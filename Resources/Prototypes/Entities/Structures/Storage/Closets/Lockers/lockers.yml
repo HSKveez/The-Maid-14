@@ -447,9 +447,9 @@
   components:
   - type: GenpopLocker
   - type: EntityStorageVisuals
-    stateBaseClosed: genpop
-    stateDoorOpen: genpop_open
-    stateDoorClosed: genpop_door_1
+    stateBaseClosed: generic # Maid
+    stateDoorOpen: generic_open # Maid
+    stateDoorClosed: generic_door # Maid
   - type: UserInterface
     interfaces:
       enum.GenpopLockerUiKey.Key:
@@ -500,7 +500,7 @@
   suffix: 2
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_2
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -508,7 +508,7 @@
   suffix: 3
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_3
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -516,7 +516,7 @@
   suffix: 4
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_4
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -524,7 +524,7 @@
   suffix: 5
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_5
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -532,7 +532,7 @@
   suffix: 6
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_6
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -540,7 +540,7 @@
   suffix: 7
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_7
+    stateDoorClosed: generic_door # Maid
 
 - type: entity
   parent: LockerPrisoner
@@ -548,7 +548,7 @@
   suffix: 8
   components:
   - type: EntityStorageVisuals
-    stateDoorClosed: genpop_door_8
+    stateDoorClosed: generic_door # Maid
 
 # Detective
 - type: entity

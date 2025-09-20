@@ -83,7 +83,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Power/apc.rsi
+    sprite: _Maid/Structures/Power/apc.rsi # Maid
     layers:
     - state: base
     - state: panel
@@ -132,7 +132,7 @@
     sourceNode: input
     loadNode: output
     collectionName: apc
-    sprite: Structures/Power/apc.rsi
+    sprite: _Maid/Structures/Power/apc.rsi # Maid
     state: static
   - type: BatteryCharger
     voltage: Medium
@@ -227,7 +227,7 @@
     anchored: true
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Power/apc.rsi
+    sprite: _Maid/Structures/Power/apc.rsi # Maid
     state: frame
   - type: Construction
     graph: APC

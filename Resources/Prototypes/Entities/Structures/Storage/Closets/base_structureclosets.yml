@@ -73,7 +73,7 @@
     noRot: true
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/closet.rsi
+    sprite: _Maid/Structures/Storage/closet.rsi # Maid
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]
@@ -212,7 +212,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     noRot: false
-    sprite: Structures/Storage/wall_locker.rsi
+    sprite: _Maid/Structures/Storage/wall_locker.rsi # Maid
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]
@@ -281,7 +281,7 @@
   - type: Lock
   - type: LockVisuals
   - type: Sprite
-    sprite: Structures/Storage/wall_locker.rsi
+    sprite: _Maid/Structures/Storage/wall_locker.rsi # Maid
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]

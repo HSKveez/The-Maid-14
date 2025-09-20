@@ -75,7 +75,7 @@
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseMachineRecipeCategory ]
   id: SubstationMachineCircuitboard
-  icon: { sprite:  Structures/Power/substation.rsi, state: substation } # Goobstation
+  icon: { sprite:  Structures/Power/substation.rsi, state: substation } # Maid
   result: SubstationMachineCircuitboard
 
 - type: latheRecipe

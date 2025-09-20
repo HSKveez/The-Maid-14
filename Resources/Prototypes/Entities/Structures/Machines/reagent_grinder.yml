@@ -67,7 +67,7 @@
         layer:
         - TabletopMachineLayer
   - type: Sprite
-    sprite: Structures/Machines/grinder.rsi
+    sprite: _Maid/Structures/Machines/grinder.rsi # Maid
     drawdepth: LargeObjects
     snapCardinals: true
     offset: "0.0,0.4"

@@ -21,7 +21,7 @@
       - id: StasiziumAutoInjector
         amount: 8
   - type: Sprite
-    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
     state: purplekit
 
 - type: entity

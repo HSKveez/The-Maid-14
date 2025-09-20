@@ -31,7 +31,7 @@
   id: Medkit
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
     state: firstaid
   - type: Storage
     maxItemSize: Small
@@ -39,7 +39,7 @@
     - 0,0,3,1
   - type: Item
     size: Large
-    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
     heldPrefix: firstaid
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:

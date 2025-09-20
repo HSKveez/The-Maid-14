@@ -807,7 +807,7 @@
   description: A sign indicating the genpop prison.
   components:
   - type: Sprite
-    state: genpop
+    state: generic # Maid
 
 - type: entity
   parent: BaseSign

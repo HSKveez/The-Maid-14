@@ -32,7 +32,7 @@
   - type: Lock
   - type: LockVisuals
   - type: Sprite
-    sprite: Structures/Storage/closet.rsi
+    sprite: _Maid/Structures/Storage/closet.rsi # Maid
     noRot: true
     layers:
     - state: generic
