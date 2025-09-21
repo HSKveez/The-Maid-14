@@ -52,11 +52,11 @@
   id: MedkitBSO
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    state: bsokit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    state: blackkit # Maid
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    heldPrefix: bsokit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    heldPrefix: blackkit # Maid
     size: Normal
   - type: Storage
     defaultStorageOrientation: Vertical
@@ -68,9 +68,9 @@
   id: MedkitBSOIPC
   components:
   - type: Sprite
-    state: bsokit-ipc
+    state: blackkit # Maid
   - type: Item
-    heldPrefix: bsokit-ipc
+    heldPrefix: blackkit # Maid
 
 - type: entity
   name: combat medical kit
@@ -79,11 +79,11 @@
   id: MedkitCombatBlue
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    state: blackbluekit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    state: blackkit # Maid
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    heldPrefix: blackbluekit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    heldPrefix: blackkit # Maid
     size: Normal
 
 - type: entity
@@ -93,11 +93,11 @@
   id: MedkitCombatPurple
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    state: blackpurplekit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    state: blackkit # Maid
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
-    heldPrefix: blackpurplekit
+    sprite: _Maid/Objects/Specific/Medical/firstaidkits.rsi # Maid
+    heldPrefix: blackkit # Maid
     size: Normal
   - type: Storage
     defaultStorageOrientation: Vertical

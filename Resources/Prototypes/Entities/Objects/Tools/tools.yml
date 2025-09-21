@@ -312,12 +312,12 @@
     - Wrench
     - DroneUsable # Goobstation
   - type: Sprite
-    sprite: Objects/Tools/wrench.rsi
+    sprite: _Maid/Objects/Tools/wrench.rsi # Maid
     state: icon
   - type: Item
-    sprite: Objects/Tools/wrench.rsi
+    sprite: _Maid/Objects/Tools/wrench.rsi # Maid
     storedSprite:
-      sprite: Objects/Tools/wrench.rsi
+      sprite: _Maid/Objects/Tools/wrench.rsi # Maid
       state: storage
   - type: MeleeWeapon
     animationRotation: 225 # WWDP
@@ -360,7 +360,7 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: Objects/Tools/multitool.rsi
+    sprite: _Maid/Objects/Tools/multitool.rsi # Maid
     layers:
     - state: icon
     - state: green-unlit
@@ -368,7 +368,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: Objects/Tools/multitool.rsi
+    sprite: _Maid/Objects/Tools/multitool.rsi # Maid
     quickEquip: false
     slots:
     - Belt
@@ -424,7 +424,7 @@
     - type: Item
       size: Small
     - type: Clothing
-      sprite: Objects/Tools/network_configurator.rsi
+      sprite: _Maid/Objects/Tools/network_configurator.rsi # Maid
       quickEquip: false
       slots:
         - Belt
@@ -472,10 +472,10 @@
     tags:
     - Powerdrill
   - type: Sprite
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Maid/Objects/Tools/drill.rsi # Maid
     state: drill_screw
   - type: Item
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Maid/Objects/Tools/drill.rsi # Maid
     size: Small
   - type: Tool
     qualities:
@@ -487,7 +487,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Maid/Objects/Tools/drill.rsi # Maid
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -495,7 +495,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Maid/Objects/Tools/drill.rsi # Maid
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg

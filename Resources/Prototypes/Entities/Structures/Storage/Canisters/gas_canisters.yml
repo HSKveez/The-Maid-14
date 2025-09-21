@@ -74,7 +74,7 @@
     - type: Transform
       noRot: true
     - type: Sprite
-      sprite: Structures/Storage/canister.rsi
+      sprite: _Maid/Structures/Storage/canister.rsi # Maid
       noRot: true
       layers:
         - state: grey
